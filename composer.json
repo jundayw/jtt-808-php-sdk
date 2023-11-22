@@ -1,0 +1,21 @@
+{
+    "name": "jundayw/jtt-808-php-sdk",
+    "description": "JT/T808 PHP SDK",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jundayw",
+            "email": "jundayw@126.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "jundayw/socket": "^0.7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jundayw\\JTT808\\": "src/"
+        }
+    }
+}
